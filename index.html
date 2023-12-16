@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div id="calculator">
+        <header>
+        <div class="txt">
+            <h1 class="calc">calc</h1>
+            </div>
+        <div class="nugzara">
+            <h2 class="theme">THEME</h2>
+            <div class="toggle">
+                <div class="nums">
+                    <h4>1</h4>
+                    <h4>2</h4>
+                    <h4>3</h4>
+                </div>
+                <div class="switch">
+                <img class="ovl" src="assets/Oval.svg" alt="">
+                </div>
+            </div>
+        </div>
+        </header>
+        <input type="text" id="display" disabled>
+
+        <div class="main">
+        <div class="mid">
+            <button class="margin" onclick="appendValue('7')">7</button>
+            <button class="margin" onclick="appendValue('4')">4</button>
+            <button class="margin" onclick="appendValue('1')">1</button>
+            <button class="red" onclick="calculateResult()">=</button>
+        </div>
+        <div class="mid2">
+            <button class="margin" onclick="appendValue('8')">8</button>
+            <button class="margin" onclick="appendValue('5')">5</button>
+            <button class="margin" onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('0')">0</button>
+        </div>
+        <div class="bottom">
+            <button class="margin" onclick="appendValue('9')">9</button>
+            <button class="margin" onclick="appendValue('6')">6</button>
+            <button class="margin" onclick="appendValue('3')">3</button>
+            <button onclick="appendValue('/')">/</button>
+        </div>
+        <div class="raghac">
+            <button id="margin" class="blue" onclick="clearDisplay()">DEL</button>
+            <button class="margin" onclick="appendValue('+')">+</button>
+            <button class="margin" onclick="appendValue('-')">-</button>
+            <button onclick="appendValue('*')">X</button>
+        </div>
+        </div>
+    </div>
+
+
+      <script src="main.js">
+
+      </script>
+</body>
+</html>

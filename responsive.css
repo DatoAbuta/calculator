@@ -1,0 +1,43 @@
+@media (width < 1440px){
+
+    .nugzara{
+        gap: 26px;
+    }
+
+    header{
+        gap: 129px;
+    }
+    #display{
+        width: 327px;
+        height: 88px;
+        color: #FFF;
+        text-align: right;
+        font-family: League Spartan;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.667px;
+    }
+    button{
+        width: 60px;
+        height: 64px;
+        flex-shrink: 0;
+        color: #434A59;
+        text-align: center;
+        font-family: League Spartan;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.533px;
+    }
+    .main{
+        width: 327px;
+        gap: 13px;
+    }
+    .margin, #margin{
+        margin-bottom: 13px;
+    }
+
+}
